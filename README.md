@@ -5,8 +5,8 @@ THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/
 Radar chart demo component for visualizing any assessment type scenarios (health human services, child welfare, general assessments). The component provides the following functionality:
 * Can drop on any object page to show radar graph for data in child records. 
 * The data to feed the radar chart is assumed to be in child records. For example a correct structure is parent record like Contact and 1-to-many child records like Assessments__c. Each child record would have the numeric parameter values to show in the radar graph. For example, one Assessment__c record could have numeric values for 'Happiness', 'Fitness', 'Health', 'Finances', etc... 
-* Can hover over a radar point to get details
-* Click on a radar point and a line/bar chart will show in bottom that shows that metic (i.e. Happiness) over time.
+* Can hover over a radar point to get details.
+* Click on a radar point and a line/bar chart will show in bottom that shows that metric (i.e. Happiness) over time.
 
 Here is the component in action and checkout [this video](https://github.com/thedges/PSRadarChart/blob/master/PSRadarChart.mp4) for deep dive in to the component and configuration:
 
@@ -22,7 +22,7 @@ The component has two custom object used to configure it's capabilities: PSRadar
 | <b>Child Label Field</b> | The API field name in the child object that include a string to show as the label for that dataset. This field can be a text field user provides...or a formula field if needed.  |
 | <b>Parent Lookup Field</b> | The API field name in the child object that provides the lookup/master-detail to parent record. |
 | <b>Target Name</b> | This parameter is currently not used. |
-| <b>Title</b> | The title to show on the component. You can use a text string like "Assessment for {{FirstName}} {{LastName}}" where the names inside the {{}} brackets is a field API name on the parent record (i.e. merge fields). |
+| <b>Title</b> | The title to show on the component. You can use a text string like "Assessment for {{FirstName}} {{LastName}}" where the names inside the {{xx}} brackets is a field API name on the parent record (i.e. merge fields). |
 | <b>Title Font Size</b> | The font size in pixels for the title (default: 14). |
 | <b>Trend Type</b> | The type of chart to show when a radar point is clicked: 'bar' or 'line' are only options. |
 | <b>Min Value</b> | The minimum value the radar chart should show. |
