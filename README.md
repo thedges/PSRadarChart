@@ -16,7 +16,7 @@ Here is the component in action:
 
 ## Component Configuration
 
-The component has two custom object used to configure it's capabilities: PSRadarConfig and PSRadarConfigField. Here are the parameters to create for the PSRadarConfig object.
+The component has two custom objects used to configure it's capabilities: PSRadarConfig and PSRadarConfigField. Here are the parameters to create for the PSRadarConfig object.
 
 | Parameter | Description |
 |-----------|-------------|
