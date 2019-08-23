@@ -2,7 +2,7 @@
 
 THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/thedges/Disclaimer/master/disclaimer.txt).
 
-# Component Details
+## Component Details
 
 Radar chart demo component for visualizing any assessment type scenarios (health human services, child welfare, general assessments). The component provides the following functionality:
 * Can drop on any object page to show radar chart for data in child records. 
@@ -14,7 +14,7 @@ Here is the component in action:
 
 ![alt text](https://github.com/thedges/PSRadarChart/blob/master/PSRadarChart.gif "Sample Image")
 
-# Component Configuration
+## Component Configuration
 
 The component has two custom object used to configure it's capabilities: PSRadarConfig and PSRadarConfigField. Here are the parameters to create for the PSRadarConfig object.
 
@@ -42,7 +42,7 @@ Here are the parameters to create for the PSRadarConfigField child object.
 | <b>Label</b> | [Optional] By default, the component will use the field label to show in chart. You can override the label if needed. |
 | <b>Order</b> | [Optional] A number field that you can select the order to show the metrics in radar chart. |
 
-# Component Install and Setup
+## Component Install and Setup
 
 To use this component:
 1. Install the component using the 'Deploy to Salesforce' button below.
