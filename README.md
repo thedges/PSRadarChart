@@ -16,7 +16,7 @@ Here is the component in action:
 
 ## Component Configuration
 
-The component has two custom objects used to configure it's capabilities: PSRadarConfig and PSRadarConfigField. Here are the parameters to create for the PSRadarConfig object.
+The component has two custom objects used to configure it's capabilities: **PSRadarConfig** and **PSRadarConfigField**. Here are the parameters to create for the **PSRadarConfig** object.
 
 | Parameter | Description |
 |-----------|-------------|
@@ -34,7 +34,7 @@ The component has two custom objects used to configure it's capabilities: PSRada
 | <b>Filter Clause</b> | A SOQL filter clause to filter out child records. For example if your child reocrd had a Type__c field, you could have filter clause value of "Type__c = 'Home Visit' which would only show home visit assessments. |
 | <b>Order By Clause</b> | A SOQL order by clause to order the child records in specific order. By default, they will be shown chronologically by CreatedDate field. |
 
-Here are the parameters to create for the PSRadarConfigField child object.
+Here are the parameters to create for the **PSRadarConfigField** child object.
 
 | Parameter | Description |
 |-----------|-------------|
@@ -45,10 +45,10 @@ Here are the parameters to create for the PSRadarConfigField child object.
 ## Component Install and Setup
 
 To use this component:
-1. Install the component using the 'Deploy to Salesforce' button below.
-2. Assign the 'PSRadarChart' permission set to the users that will use this component.
-3. Find the 'PSRadarConfig' tab and create a configuration per the field definitions above. Create 1-to-many child 'PSRadarConfigField' records to define the metrics you want to show in the chart.
-4. Drop the 'psRadarChart' component on the record pag you like and in the component configuration, select the name of the configuration definition you created in step #3 above.
+1. Install the component using the **'Deploy to Salesforce'** button below.
+2. Assign the **'PSRadarChart'** permission set to the users that will use this component.
+3. Find the **'PSRadarConfig'** tab and create a configuration per the field definitions above. Create 1-to-many child **'PSRadarConfigField'** records to define the metrics you want to show in the chart.
+4. Drop the **'psRadarChart'** component on the record pag you like and in the component configuration, select the name of the configuration definition you created in step #3 above.
 
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
