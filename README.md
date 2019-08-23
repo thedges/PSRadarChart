@@ -16,7 +16,9 @@ Here is the component in action:
 
 ## Component Configuration
 
-The component has two custom objects used to configure it's capabilities: **PSRadarConfig** and **PSRadarConfigField**. Here are the parameters to create for the **PSRadarConfig** object.
+The component has two custom objects used to configure it's capabilities: **PSRadarConfig** and **PSRadarConfigField**. Yes...I'm still using custom objects. While I want to use custom metadata types, I don't like the way I cannot easily create child records from a parent record as the UI doesn't allow that like it works in custom objects.
+
+Here are the parameters to create for the **PSRadarConfig** object.
 
 | Parameter | Description |
 |-----------|-------------|
