@@ -42,6 +42,10 @@ Here are the parameters to create for the **PSRadarConfigField** child object.
 | <b>Label</b> | [Optional] By default, the component will use the field label to show in chart. You can override the label if needed. |
 | <b>Order</b> | [Optional] A number field that you can select the order to show the metrics in radar chart. |
 
+Here is sample screenshot of a configuration:
+
+![alt text](https://github.com/thedges/PSRadarChart/blob/master/PSRadarChart-SampleConfig.png "Config Image")
+
 ## Component Install and Setup
 
 To use this component:
