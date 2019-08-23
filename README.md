@@ -4,7 +4,7 @@ THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/
 
 Radar chart demo component for visualizing any assessment type scenarios (health human services, child welfare, general assessments). The component provides the following functionality:
 * Can drop on any object page to show radar graph for data in child records. 
-* The data to feed the radar chart is assumed to be in child records. For example a correct structure is parent record like Contact and 1-to-many child records like Assessments__c. Each child record would have the numeric parameter values to show in the radar graph. For example, one Assessment__c record could have values for 'Happiness', 'Fitness', 'Health', 'Finances', etc... 
+* The data to feed the radar chart is assumed to be in child records. For example a correct structure is parent record like Contact and 1-to-many child records like Assessments__c. Each child record would have the numeric parameter values to show in the radar graph. For example, one Assessment__c record could have numeric values for 'Happiness', 'Fitness', 'Health', 'Finances', etc... 
 * Can hover over a radar point to get details
 * Click on a radar point and a line/bar chart will show in bottom that shows that metic (i.e. Happiness) over time.
 
