@@ -44,7 +44,7 @@ Here are the parameters to create for the **PSRadarConfigField** child object.
 
 Here is sample screenshot of a configuration:
 
-![alt text](https://github.com/thedges/PSRadarChart/blob/master/PSRadarChart-SampleConfig.png "Config Image")
+![alt text](https://github.com/thedges/PSRadarChart/blob/master/PSRadarConfig-SampleConfig.png "Config Image")
 
 ## Component Install and Setup
 
