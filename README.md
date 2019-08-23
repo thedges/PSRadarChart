@@ -8,7 +8,7 @@ Radar chart demo component for visualizing any assessment type scenarios (health
 * Can hover over a radar point to get details.
 * Click on a radar point and a line/bar chart will show in bottom that shows that metric (i.e. Happiness) over time.
 
-Here is the component in action and checkout [this video](https://github.com/thedges/PSRadarChart/blob/master/PSRadarChart.mp4) for deep dive in to the component and configuration:
+Here is the component in action:
 
 ![alt text](https://github.com/thedges/PSRadarChart/blob/master/PSRadarChart.gif "Sample Image")
 
