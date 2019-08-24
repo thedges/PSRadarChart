@@ -37,7 +37,7 @@ Here are the parameters to create for the **PSRadarConfig** object.
 | <b>Filter Clause</b> | A SOQL filter clause to filter out child records. For example if your child reocrd had a Type__c field, you could have filter clause value of "Type__c = 'Home Visit' which would only show home visit assessments. |
 | <b>Order By Clause</b> | A SOQL order by clause to order the child records in specific order. By default, they will be shown chronologically by CreatedDate field. |
 
-Here are the parameters to create for the **PSRadarConfigField** child object.
+Here are the parameters to create for the **PSRadarConfigField** child object. Create a record for each numeric parameter in the child object that you want to show in the radar chart.
 
 | Parameter | Description |
 |-----------|-------------|
