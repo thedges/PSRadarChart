@@ -9,7 +9,7 @@ Radar chart demo component for visualizing any assessment type scenarios (health
 * The data to feed the radar chart is assumed to be in child records. For example a correct structure is parent record like Contact and 1-to-many child records like Assessments__c. Each child record would have the numeric parameter values to show in the radar chart. For example, one Assessment__c record could have numeric values for 'Happiness', 'Fitness', 'Health', 'Finances', etc... 
 * Can hover over a radar point to get details.
 * Click on a radar point and a line/bar chart will show in bottom that shows that metric (i.e. Happiness) over time.
-* Utilize the [ChartJS Javascript library](https://www.chartjs.org/).
+* Utilizes the [ChartJS](https://www.chartjs.org/) for charting and [Handlebars](https://handlebarsjs.com/) for the field merge logic in title.
 
 Here is the component in action:
 
