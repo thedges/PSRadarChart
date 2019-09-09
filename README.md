@@ -9,6 +9,7 @@ Radar chart demo component for visualizing any assessment type scenarios (health
 * The data to feed the radar chart is assumed to be in child records. For example a correct structure is parent record like Contact and 1-to-many child records like Assessments__c. Each child record would have the numeric parameter values to show in the radar chart. For example, one Assessment__c record could have numeric values for 'Happiness', 'Fitness', 'Health', 'Finances', etc... 
 * Can hover over a radar point to get details.
 * Click on a radar point and a line/bar chart will show in bottom that shows that metric (i.e. Happiness) over time.
+* Utilizes the [ChartJS](https://www.chartjs.org/) for charting and [Handlebars](https://handlebarsjs.com/) for the field merge logic in title.
 
 Here is the component in action:
 
@@ -16,7 +17,9 @@ Here is the component in action:
 
 ## Component Configuration
 
-The component has two custom objects used to configure it's capabilities: **PSRadarConfig** and **PSRadarConfigField**. Here are the parameters to create for the **PSRadarConfig** object.
+The component has two custom objects used to configure it's capabilities: **PSRadarConfig** and **PSRadarConfigField**. Yes...I'm still using custom objects. While I want to use custom metadata types, I don't like the way I cannot easily create child records from a parent record as the UI doesn't allow that like it works in custom objects.
+
+Here are the parameters to create for the **PSRadarConfig** object.
 
 | Parameter | Description |
 |-----------|-------------|
@@ -34,13 +37,17 @@ The component has two custom objects used to configure it's capabilities: **PSRa
 | <b>Filter Clause</b> | A SOQL filter clause to filter out child records. For example if your child reocrd had a Type__c field, you could have filter clause value of "Type__c = 'Home Visit' which would only show home visit assessments. |
 | <b>Order By Clause</b> | A SOQL order by clause to order the child records in specific order. By default, they will be shown chronologically by CreatedDate field. |
 
-Here are the parameters to create for the **PSRadarConfigField** child object.
+Here are the parameters to create for the **PSRadarConfigField** child object. Create a record for each numeric parameter in the child object that you want to show in the radar chart.
 
 | Parameter | Description |
 |-----------|-------------|
 | <b>Field API Name</b> | The field API name in child object that contains a metric you want to show in radar chart. |
 | <b>Label</b> | [Optional] By default, the component will use the field label to show in chart. You can override the label if needed. |
 | <b>Order</b> | [Optional] A number field that you can select the order to show the metrics in radar chart. |
+
+Here is sample screenshot of a configuration:
+
+![alt text](https://github.com/thedges/PSRadarChart/blob/master/PSRadarConfig-SampleConfig.png "Config Image")
 
 ## Component Install and Setup
 
