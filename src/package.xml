@@ -11,6 +11,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>PSRadarConfig__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>PSRadarConfig_Record_Page</members>
         <name>FlexiPage</name>
     </types>
