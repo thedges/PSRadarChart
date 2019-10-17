@@ -9,6 +9,10 @@
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
             <property name="configName" type="String" label="Configuration name" datasource="apex://PSRadarChartPickList"/>
+            <supportedFormFactors>
+                <supportedFormFactor type="Small" />
+                <supportedFormFactor type="Large" />
+            </supportedFormFactors>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
